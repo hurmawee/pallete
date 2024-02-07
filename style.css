@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+.mini{
+    background-color: #111;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.main{
+    cursor: pointer;
+    color: aqua;
+    width: 400px;
+    height: 405px;
+    margin: 5px 5px;
+    transition: 0.5s;
+    outline: none;
+    border: none;
+}
+.mini:hover,
+.main:hover{
+    transform: scale(1.02);
+}
